@@ -1,0 +1,38 @@
+## Ignore Visual Studio, .NET Core, Linux, Mac & Windows temp files
+
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Ob]j/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Environment files
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+# Test results
+TestResults/
+*.trx
+*.coverage
